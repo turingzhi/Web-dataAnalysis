@@ -196,11 +196,11 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
     align-items: center;
     justify-content: center;
     position:relative;
-    /*background:url(../images/viz/roberry.jpg)no-repeat;*/
-    background-color: #FFC700;
-    background-size:cover;
-    background-position: center;
-    height:890px;
+    background:url(../images/background.png)no-repeat;
+    /* background-color: #FFC700; */
+    /* background-size:cover; */
+    /* background-position: center; */
+    height: 648px;;
 }
 .welcome-hero:before{
     position:absolute;
@@ -601,7 +601,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 
 
 .reference {
-    background-color: #a52a2a;
+    background-color: #FFC700;
 }
 .reference h2 {
     color:#fff
