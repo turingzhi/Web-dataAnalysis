@@ -128,7 +128,7 @@ nav.navbar.bootsnav {
     color: #FFC700;
     font-size: 20px;
     font-weight: 600;
-    padding: 33px 0px 1px;
+    padding: 33px 0px 57px;
     text-transform: uppercase;
 }
 /*.navbar-brand*/
@@ -144,7 +144,7 @@ nav.navbar.bootsnav ul.nav > li > a {
     -o-transition: 0.3s linear; 
     transition: 0.3s linear;
 }
-nav.navbar.bootsnav ul.nav > li > a {padding: 5px 10px;}
+nav.navbar.bootsnav ul.nav > li > a {padding: 35px 10px;}
 nav.navbar.bootsnav ul.nav > li > a:hover,nav.navbar.bootsnav ul.nav > li > a:focus,nav.navbar.bootsnav ul.nav > li.active>a{color: #FFC700;}
 
 nav.navbar.bootsnav ul.nav > li.dropdown > a.dropdown-toggle:after {
@@ -196,7 +196,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #FFC700;}
     align-items: center;
     justify-content: center;
     position:relative;
-    background:url(../images/background.png)no-repeat;
+    background:url(../images/background2.png)no-repeat;
     background-size: 100% auto; /* Make the background width fill the width of the screen */
     height: 100vh; /* Set the height to 100% of the viewport height */
     /* background-color: #FFC700; */
