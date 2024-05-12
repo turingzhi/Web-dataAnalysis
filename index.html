@@ -83,12 +83,13 @@
 			                <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
 			                <li class=" smooth-menu active"></li>
 			                    <li class="smooth-menu"><a href="#Overview">Overview</a></li>
-			                    <li class="smooth-menu"><a href="#Part1">Time</a></li>
-			                    <li class="smooth-menu"><a href="#Part2">Location</a></li>
-			                    <li class="smooth-menu"><a href="#Part3">Hour of day</a></li>
-			                    <li class="smooth-menu"><a href="#Part4">Commuting.</a></li>
-			                    <li class="smooth-menu"><a href="#Part5">Long order</a></li>
-			                    <li class="smooth-menu"><a href="#Part6">Weather condition</a></li>
+			                    <li class="smooth-menu"><a href="#Part1">Peak Orders Time</a></li>
+			                    <li class="smooth-menu"><a href="#Part2">Top Orders Location</a></li>
+			                    <li class="smooth-menu"><a href="#Part3">Communities Orders Trend</a></li>
+			                    <li class="smooth-menu"><a href="#Part4">Commuting Hotspots</a></li>
+			                    <li class="smooth-menu"><a href="#Part5">Long-distance Trips</a></li>
+			                    <li class="smooth-menu"><a href="#Part6">Weather influence</a></li>
+			                    <li class="smooth-menu"><a href="#Conclusion">Conclusion</a></li>
 			                    <li class="smooth-menu"><a href="#References">References</a></li>
 			                    <!-- <li class="smooth-menu"><a href="#CrimeAnalysisBySFPoliceDistricts">Crime Analysis by SF Police Districts</a></li> -->
 			                    <!-- <li class="smooth-menu"><a href="#InteractiveVisualization">Interactive Visualization</a></li> -->
@@ -158,7 +159,7 @@
 					</div>
 				</div>
 				<div class="single-about-add-info">
-					<h3>We have analyzed the data concerning the time with the highest number of orders According to the bar graph, the following observations can be made:</h3>
+					<!-- <h3>We have analyzed the data concerning the time with the highest number of orders According to the bar graph, the following observations can be made:</h3> -->
 					<br>
 						<ul class="newcol">
 							<li>The months with the highest order volume are June, May, and October, respectively. The months with the lowest order volume are January, February, and December. This may be due to the influence of temperature and season on people's willingness to travel.</li>
@@ -219,17 +220,24 @@
 						<div class="about-content">
 							<div class="row">
 								<div>
-									<img src="assets/images/viz/OrderInfluencedByHours.jpg" >
+									<img src="assets/images/viz/OrderInfluencedByHours.png" >
 								</div>
 						</div>
 					</div>
 					<div>
 						<div class="single-about-add-info">
-							<h3>Based on the above figure, we can observe the following:</h3>
+							<!-- <h3>Based on the above figure, we can observe the following:</h3> -->
 							<br>
 								<p>
-									The number of orders generally follows the pattern of more orders during the day, with the fewest orders in the early morning. However, there are significant differences in peak order volumes across different areas, which may be determined by the functionof each area.
-									
+									<ul class="newcol">
+										<li>During midnight hours, there is minimal activity in each area.</li>
+										<li>
+											The peak commuting hours in the morning are from 5:00 to 8:00. The areas Near North Side, Near South Side and North Lawndale exhibit the highest passenger flow during this time. Subsequently, the passenger flow decreases rapidly in area North Lawndale, indicating the potential for more orders during peak commuting hours in these areas.
+
+										</li>
+										<li>Most areas experience a continuous increase in passenger flow starting around 2-3 AM until around 4 PM, followed by a continuous decline until around 2-3 AM the next day. However, Lake View and Garfield Ridge seem to maintain their status from 7 AM to around 8 PM.</li>
+										<li>Communities with larger bases tend to have considerable passenger flow even during the early morning hours, often accompanied by more taxis. Therefore, choosing areas like Lake View and West Town (with a significant proportion of passenger traffic during the early morning hours) can also be a good option.</li>
+									</ul>
 								</p>	
 								
 								
@@ -246,7 +254,7 @@
 		<section id="Part4" class="education">
 			<br><br><br>
 			<div class="section-heading text-center">
-				<h2>The two areas with the most commuting.<br><br><br><p></h2>
+				<h2>Commuting between communities<br><br><br><p></h2>
 			</div>
 				<div class="container">
 					<div class="container">
@@ -260,12 +268,17 @@
 					</div>
 					<div>
 						<div class="single-about-add-info">
-							<h3>Based on the above figure, we can observe the following:</h3>
+							<!-- <h3>Based on the above figure, we can observe the following:</h3> -->
 							
 							<br>
 								<p>
-									The commute mainly concentrates between the areas of x, x, and x. The highest number of orders occurs between x and y areas, so heading to them may reduce idle time for you.
-									
+									<ul class="newcol">
+										<li>A large number of taxi orders occur between core areas such as Near North Side, Lincoln Park, Lake View, Uptown, Loop, Near South Side, and Near West Side, which are adjacent communities. In addition, the main orders are from O'Hare airport to these core lakeside communities.</li>
+										<li>
+											Furthermore, combining this with the top 15 chart: Early morning in **Near North Side, Lake View, Lincoln Park, O'Hare. Rush hour in Near North Side, Loop, Near West Side. Any location during noon and afternoon. Evening to night in Near North Side, O'Hare, Loop, Near West Side, Garfield Ridge. These areas have a relatively limited volume of orders at different times of the day. This also means that we need to stay as close as possible to these areas for activities.
+										</li>
+										<li>Furthermore, combining this with the top 15 chart: Early morning in Near North Side, Lake View, Lincoln Park, O'Hare. Rush hour in Near North Side, Loop, Near West Side. Any location during noon and afternoon. Evening to night in Near North Side, O'Hare, Loop, Near West Side, Garfield Ridge. These areas have a relatively limited volume of orders at different times of the day. This also means that we need to stay as close as possible to these areas for activities.</li>
+									</ul>
 								</p>	
 						</div>
 					</div>
@@ -283,7 +296,7 @@
 		<section id="Part5" class="education">
 			<br><br><br>
 			<div class="section-heading text-center">
-				<h2>The areas with the most long orders.<br><br><br><p></h2>
+				<h2>Long-distance trips<br><br><br><p></h2>
 			</div>
 				<div class="container">
 					<div class="container">
@@ -297,11 +310,11 @@
 					</div>
 					<div>
 						<div class="single-about-add-info">
-							<h3>Based on the above figure, we can observe the following:</h3>
+							<!-- <h3>Based on the above figure, we can observe the following:</h3> -->
 							
 							<br>
 								<p>
-									In areas 76, 55, and 56, orders with long distances are the most common. If you prefer to accept long-distance orders, you can increase your chances by heading to these areas.
+									In the early hours of the morning, trips originating from South Chicago, Calumet Heights, Avalon Park, East Side, Lincoln Park, O'hare, Loop and Beverly typically cover longer distances. Additionally, at other times, taxis departing from the O'Hare area travel the furthest, which is expected as it is near the airport. Garfield Ridge which has a smaller airport, on the other hand, ranks second in terms of trip distances for most of the day. If you want have more long-distance trips, we recommend you go to these communities.
 									
 								</p>	
 						</div>
@@ -319,7 +332,7 @@
 		<section id="Part6" class="education">
 			<br><br><br>
 			<div class="section-heading text-center">
-				<h2>The weather condition with the highest number of orders.<br><br><br><p></h2>
+				<h2>The number of orders with different weather conditions<br><br><br></h2>
 			</div>
 				<div class="container">
 					<div class="container">
@@ -332,11 +345,43 @@
 						<div class="single-about-add-info">
 							<h3>Note: The definition of worse weather day is during that day, there are more than 3 worse weather records. The definition of bad weather day is during that day, there are more than 10 bad weather records. The definition of normal weather day is during that day, there are no more than 3 worse weather records or 10 bad weather records.  </h4>
 							<br><br>
-							<h3>Based on the above figure, we can observe the following:</h3>
+							<!-- <h3>Based on the above figure, we can observe the following:</h3> -->
 							
 							<br>
 								<p>
 									Special weather conditions may potentially increase the number of orders. however, this pattern is not always consistent.
+We believe that it might be more reasonable to explain this phenomenon by considering temperature. People may not have a strong desire to go out during the winter. Additionally, it's also possible that the harsh winter weather, such as heavy snowfall, makes it more difficult for people to accept.
+									
+								</p>	
+						</div>
+					</div>
+				</div>
+				
+				</div><!--.experience-content-->
+					
+			</div>
+
+
+		</section><!--/.education-->
+		
+		<!-- Part6: The weather condition with the highest number of orders. -->
+		<section id="Conclusion" class="education">
+			<br><br><br>
+			<div class="section-heading text-center">
+				<h2>Conclusion<br><br><br></h2>
+			</div>
+				<div class="container">
+					
+					<div>
+						<div class="single-about-add-info">
+							<br><br>
+							<!-- <h3>Based on the above figure, we can observe the following:</h3> -->
+							
+							<br>
+								<p>
+									The above is an analysis of various aspects of taxi orders. We hope that our analysis can provide you with useful information from different perspectives to better plan your trips and increase your income.
+									<br>
+									Looking forward to witnessing the progress and development of the taxi industry with you, andcontributing more convenience and comfort to urban transportation.
 									
 								</p>	
 						</div>
