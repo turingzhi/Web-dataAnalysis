@@ -135,7 +135,7 @@ nav.navbar.bootsnav {
 
 /*.nav li*/
 nav.navbar.bootsnav ul.nav > li > a {
-    font-size: 11px;
+    font-size: 10px;
     font-weight: 400;
     text-transform:uppercase;
     -webkit-transition: 0.3s linear; 
@@ -151,7 +151,7 @@ nav.navbar.bootsnav ul.nav > li.dropdown > a.dropdown-toggle:after {
     content: "";
 }
 nav.navbar.bootsnav ul.nav > li.dropdown span {
-    font-size: 8px;
+    font-size: 7px;
     margin-left: 15px;
 }
 .sticky-wrapper.is-sticky nav.navbar.bootsnav ul.nav > li > a {color:#6a708e;}
