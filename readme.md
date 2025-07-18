@@ -1,9 +1,9 @@
 # Chicago Taxi Trip Analysis & Interactive Dashboards
 
-![Dashboard 1 Demo](./images/dash1.mp4)
+![Dashboard 1 Demo](./images/dash1.gif)
 *Figure: An interactive demonstration of the "Daily Trip Patterns and Peak Times" Dashboard.*
 
-![Dashboard 2 Demo](./images/dash2.mp4)
+![Dashboard 2 Demo](./images/dash2.gif)
 *Figure: An interactive demonstration of the "Hourly Median Trip Miles by Community Area" Dashboard.*
 
 ---
@@ -26,12 +26,11 @@
   1.  [Project Overview](#project-overview)
   2.  [Features](#features)
   3.  [Data Source](#data-source)
-  4.  [Project Structure](#project-structure)
-  5.  [Technologies Used](#technologies-used)
-  6.  [Setup & Local Installation](#setup--local-installation)
-  7.  [Usage](#usage)
-  8.  [Live Demo](#live-demo)
-  9.  [Analysis Highlights](#analysis-highlights)
+  4.  [Technologies Used](#technologies-used)
+  5.  [Setup & Local Installation](#setup--local-installation)
+  6.  [Usage](#usage)
+  7.  [Live Demo](#live-demo)
+  8.  [Analysis Highlights](#analysis-highlights)
 
 ---
 
@@ -63,50 +62,8 @@
 
 ---
 
-## 4. Project Structure
 
-├── assets
-
-├── dash1
-
-│   └── app.py
-
-├── dash2
-
-│   ├── app2.py
-
-│   ├── assets
-
-│   ├── Myapps
-
-│   ├── Procfile
-
-│   ├── runtime.txt
-
-│   └── src
-
-├── images
-
-│   ├── dash1.mp4
-
-│   ├── dash2.mp4
-
-│   ├── fig1.jpg
-
-│   ├── fig2.jpg
-
-│   ├── fig3.jpg
-
-│   └── webpage.mp4
-
-├── index.html
-
-├── readme.md
-
-└── requirements.txt
-
-
-## 5. Technologies Used
+## 4. Technologies Used
 
 Here are the core technologies powering this project:
 
@@ -123,7 +80,7 @@ Here are the core technologies powering this project:
 
 ---
 
-## 6. Setup & Local Installation
+## 5. Setup & Local Installation
 
 Want to get this project running on your machine? Just follow these steps:
 
@@ -167,7 +124,7 @@ Want to get this project running on your machine? Just follow these steps:
 
 ---
 
-## 7. Usage
+## 6. Usage
 
 Once everything's set up, here's how to fire up your Dash applications and view the full project locally:
 
@@ -194,19 +151,19 @@ Once everything's set up, here's how to fire up your Dash applications and view 
 
 ---
 
-## 8. Live Demo
+## 7. Live Demo
 
 While a live public demo isn't currently available (due to the discontinuation of free hosting tiers for such applications), you can quickly see the interactive dashboards in action via these video demonstrations:
 
-* **Dashboard 1 Demo**: [images/dash1.mp4](images/dash1.mp4)  
-* **Dashboard 2 Demo**: [images/dash2.mp4](images/dash2.mp4)  
-* **Full Webpage Demo**: [images/webpage.mp4](images/webpage.mp4)  
+* **Dashboard 1 Demo**: [images/dash1.gif](images/dash1.gif)  
+* **Dashboard 2 Demo**: [images/dash2.gif](images/dash2.gif)  
+* **Full Webpage Demo**: [images/webpage.gif](images/webpage.gif)  
 
 For the full interactive experience, we highly recommend following the [Setup & Local Installation](#6-setup--local-installation) and [Usage](#7-usage) instructions to run the applications directly on your own machine.
 
 ---
 
-## 9. Analysis Highlights
+## 8. Analysis Highlights
 
 * **Peak Travel Times**: Figure 2 clearly illustrates the surge in taxi trips during [morning/evening] rush hours, with a noticeable dip during [mid-day/late night].  
 * **Trip Duration Distribution**: As seen in Figure 1, the majority of taxi trips are relatively short, with a long tail indicating a smaller number of significantly longer journeys.  
