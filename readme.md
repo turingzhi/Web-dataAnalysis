@@ -1,9 +1,9 @@
 # Chicago Taxi Trip Analysis & Interactive Dashboards
 
-![Dashboard 1 Demo](images/dash1.mp4)
+![Dashboard 1 Demo](./images/dash1.mp4)
 *Figure: An interactive demonstration of the "Daily Trip Patterns and Peak Times" Dashboard.*
 
-![Dashboard 2 Demo](images/dash2.mp4)
+![Dashboard 2 Demo](./images/dash2.mp4)
 *Figure: An interactive demonstration of the "Hourly Median Trip Miles by Community Area" Dashboard.*
 
 ---
@@ -66,24 +66,43 @@
 ## 4. Project Structure
 
 ├── assets
+
 ├── dash1
+
 │   └── app.py
+
 ├── dash2
+
 │   ├── app2.py
+
 │   ├── assets
+
 │   ├── Myapps
+
 │   ├── Procfile
+
 │   ├── runtime.txt
+
 │   └── src
+
 ├── images
+
 │   ├── dash1.mp4
+
 │   ├── dash2.mp4
+
 │   ├── fig1.jpg
+
 │   ├── fig2.jpg
+
 │   ├── fig3.jpg
+
 │   └── webpage.mp4
+
 ├── index.html
+
 ├── readme.md
+
 └── requirements.txt
 
 
