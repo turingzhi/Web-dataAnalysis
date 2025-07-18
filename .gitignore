@@ -1,0 +1,33 @@
+# Python specific ignores
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+dash_env/  # Your virtual environment folder
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# Jupyter / IPython Notebook ignores
+.ipynb_checkpoints
+.ipynb_html
+.ipynb_warnings
+
+# OS generated files
+.DS_Store
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# VS Code specific ignores (if you use VS Code)
+.vscode/
+
+# IDE specific files (e.g., PyCharm)
+.idea/
+
+# Data files (often too large for Git and should be managed separately)
+# Uncomment the line below if you decide NOT to commit your large CSV
+Taxi_Trips_-_2023.csv
