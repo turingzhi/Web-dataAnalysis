@@ -6,7 +6,6 @@
 ![Dashboard 2 Demo](./images/dash2.gif)
 *Figure: An interactive demonstration of the "Hourly Long Trip Miles by Community Area" Dashboard.*
 
-
 ---
 
 **Key Static Visualizations:**
