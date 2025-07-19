@@ -4,7 +4,7 @@
 *Figure: An interactive demonstration of the "Daily Trip Patterns and Peak Times" Dashboard.*
 
 ![Dashboard 2 Demo](./images/dash2.gif)
-*Figure: An interactive demonstration of the "Hourly Median Trip Miles by Community Area" Dashboard.*
+*Figure: An interactive demonstration of the "Hourly Long Trip Miles by Community Area" Dashboard.*
 
 ---
 
