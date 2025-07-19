@@ -1,7 +1,6 @@
 # Chicago Taxi Trip Analysis & Interactive Dashboards
 
 ![Dashboard 1 Demo](./images/dash1.gif)  
-
 *Figure: An interactive demonstration of the "Daily Trip Patterns and Peak Times" Dashboard.*
 
 ![Dashboard 2 Demo](./images/dash2.gif)
